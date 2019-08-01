@@ -10,8 +10,12 @@ git rm --cached filename.extn // to remove that file from git tracking
 
 git commit // to commit changes
 
-// edit a file then add it git add .
-// then 
+/*to apply changes to any file into git staging area follow steps*/
+git status // to get list pf modified files
+git add . // to add all file
+git commit -m 'any comment' // to commit changes
+ 
+// 
 git commit -m 'any comment' // to commit changes and skip the editor 
 
 touch .gitignore // these file will contain list of files that we want to ignore from being tp the staging area
@@ -19,4 +23,5 @@ touch .gitignore // these file will contain list of files that we want to ignore
 
 /*to create a branch*/
 
-git branch anyName // then move to this branch by running
+git branch anyBranchName // then move to this branch by running
+git checkout anyBranchName
