@@ -1,5 +1,5 @@
 // the main branch is called master we  can create branches an work and commit to those branches and it 
-// wont get updated to the main branch until we run the
+// wont get updated to the main branch until we run the merge the branch to master
 
 git init // in a folder  to initialize git in that folder 
 git add filename.extn // to add file to staging area
@@ -28,3 +28,9 @@ touch .gitignore // these file will contain list of files that we want to ignore
 git branch anyBranchName // then move to this branch by running
 git checkout anyBranchName 
 // now if modify any file or make new files it will not reflect in the master branch
+
+git merge anyBranchName // this command execute in main branch
+
+/*to link to git hub*/
+git remote add origin https://github.com/deafMother/firstRepo.git // adds this remote repository
+git push -u origin master // to push directory to git hub repository
