@@ -1,0 +1,6 @@
+git init // in a folder  to initialize git in that folder 
+git add filename.extn // to add file to staging area
+git add . // to add all files to staging area
+git status // to get list of files being taracked
+git rm --cached filename.extn // to remove that file from git tracking
+git commit // to commit changes
