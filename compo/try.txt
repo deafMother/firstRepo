@@ -7,4 +7,6 @@ git commit // to commit changes
 
 // edit a file then add it git add .
 // then 
- git commit -m 'any comment' // to commit changes and skip the editor 
+git commit -m 'any comment' // to commit changes and skip the editor 
+
+touch .gitignore // these file will contain list of files that we want to ignore from being tp the staging area
