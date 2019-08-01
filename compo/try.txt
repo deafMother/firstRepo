@@ -4,3 +4,7 @@ git add . // to add all files to staging area
 git status // to get list of files being taracked
 git rm --cached filename.extn // to remove that file from git tracking
 git commit // to commit changes
+
+// edit a file then add it git add .
+// then 
+ git commit -m 'any comment' // to commit changes and skip the editor 
