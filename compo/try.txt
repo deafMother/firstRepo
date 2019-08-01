@@ -21,7 +21,10 @@ git commit -m 'any comment' // to commit changes and skip the editor
 touch .gitignore // these file will contain list of files that we want to ignore from being tp the staging area
 
 
+
+--BRANCHING ----
 /*to create a branch*/
 
 git branch anyBranchName // then move to this branch by running
-git checkout anyBranchName
+git checkout anyBranchName 
+// now if modify any file or make new files it will not reflect in the master branch
