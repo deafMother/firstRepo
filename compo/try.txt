@@ -32,5 +32,9 @@ git checkout anyBranchName
 git merge anyBranchName // this command execute in main branch
 
 /*to link to git hub*/
-git remote add origin https://github.com/deafMother/firstRepo.git // adds this remote repository
+git remote add origin https://github.com/deafMother/firstRepo.git   // adds this remote repository
 git push -u origin master // to push directory to git hub repository
+
+/*to add new files to the gi hub repo-> after the new files
+have been commited in the local repo run the command*/
+git push //enjoy
