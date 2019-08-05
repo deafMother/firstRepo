@@ -29,11 +29,11 @@ git branch anyBranchName // then move to this branch by running
 git checkout anyBranchName 
 // now if modify any file or make new files it will not reflect in the master branch
 
-git merge anyBranchName // this command execute in main branch
+git merge anyBranchName // this command execute in master branch to merge anyBranch to master Branch
 
 /*to link to git hub*/
-git remote add origin https://github.com/deafMother/firstRepo.git   // adds this remote repository
-git push -u origin master // to push directory to git hub repository
+git remote add origin https://github.com/deafMother/firstRepo.git   // adds this remote repository, first create the repo in git hub
+git push -u origin master // to push directory to git hub repository, remember to make readme.md in local repo else have to make pull req from remote repo then push
 
 /*to add new files to the gi hub repo-> after the new files
 have been commited in the local repo run the command*/
